@@ -1,13 +1,15 @@
-.sec2{
+.sec3{
     height:100vh;
     width: 100vw;
-    background: #864eff;
+    background: #4effa9;
     
     display: flex;
     justify-content: center;
     align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: -1;
-    
+
+}
+.youtube{
+    width: 100vw;
+    height: 100vh;
+
 }
