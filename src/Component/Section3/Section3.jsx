@@ -9,13 +9,13 @@ const Section3 = () => {
       offset:["center start","end end"]
     })
 
-    const scale=useTransform(scrollYProgress,[1,0],[0.8,1])
+    const scale=useTransform(scrollYProgress,[1,0],[0.5,1])
 
     return (
         <div ref={container}>
             <motion.div style={{scale}} className='sec3'>
                 <center>
-                <iframe className='youtube' src="https://www.youtube.com/embed/SSlXF9bwi4g?si=hUdZk60wEcm3v_OD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe className='youtube' src="https://www.youtube.com/embed/d8z2guJD9-g?si=4swsC5MrW8QK3oo7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </center>
                 
             </motion.div>

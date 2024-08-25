@@ -19,9 +19,12 @@ function App() {
   return (
     <>
       <div ref={container} className='main'>
+      <center>
         <Section1 scrollYProgress={scrollYProgress} />
         <Section2 scrollYProgress={scrollYProgress}/>
         <Section3 scrollYProgress={scrollYProgress}/>
+      </center>
+
 
       </div>  
     </>

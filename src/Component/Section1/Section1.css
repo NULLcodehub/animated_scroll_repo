@@ -1,12 +1,24 @@
 
 .sec1{
-    height:100vh;
-    width: 100vw;
-    background: #e9372a;
+    height:98vh;
+    width: 95vw;
+    background: #fefcfc;
+    color: rgb(24, 24, 24);
+    
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: sticky;
     top: 0;
     z-index: -1;
+    font-size:clamp(1rem, 1vw + 1rem, 3rem);
+    overflow: hidden;
+
+
+
+    -webkit-box-shadow: -4px -2px 5px 0px rgba(224,221,224,1);
+    -moz-box-shadow: -4px -2px 5px 0px rgba(224,221,224,1);
+    box-shadow: -4px -2px 5px 0px rgb(236, 235, 236);
+    
 }
